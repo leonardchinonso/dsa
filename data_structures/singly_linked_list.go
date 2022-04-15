@@ -34,7 +34,7 @@ func (sn *SLLNode) GetNext() *SLLNode {
 	return sn.next
 }
 
-func (sn *SLLNode) PrintNode() {
+func (sn *SLLNode) Print() {
 	fmt.Printf("value: %+v, next_node: %+v", sn.value, sn.next)
 }
 
@@ -98,7 +98,7 @@ func (sl *SinglyList) Length() int {
 func (sl *SinglyList) Print() {
 	curr := sl.dummyHead
 	for curr != nil {
-		curr.PrintNode()
+		fmt.Printf("value: %+v", curr.GetValue())
 		curr = curr.GetNext()
 		if curr != nil {
 			fmt.Print(" --> ")
