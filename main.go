@@ -1,7 +1,16 @@
 package main
 
-import "github.com/leonardchinonso/dsa/data_structures"
+import (
+	"fmt"
+	"github.com/leonardchinonso/dsa/data_structures/trees"
+)
 
 func main() {
-	data_structures.TestSinglyLinkedList()
+	//linked_lists.TestSinglyLinkedList()
+	//fmt.Println()
+	//linked_lists.TestDoublyLinkedList()
+	//fmt.Println()
+	//linked_lists.TestCircularLinkedList()
+	fmt.Println()
+	trees.TestBinaryTree()
 }

@@ -2,7 +2,7 @@
 A class for creating nodes for a single linked list along with its methods
 */
 
-package data_structures
+package linked_lists
 
 import "fmt"
 
@@ -14,7 +14,6 @@ type SLLNode struct {
 func newSLLNode(value interface{}) *SLLNode {
 	return &SLLNode{
 		value: value,
-		next:  nil,
 	}
 }
 
@@ -45,9 +44,9 @@ type SinglyList struct {
 	members   map[*SLLNode]bool
 }
 
-func NewSingleList() *SinglyList {
+func NewSinglyList() *SinglyList {
 	return &SinglyList{
-		dummyHead: newSLLNode("#"),
+		dummyHead: newSLLNode(nil),
 		members:   map[*SLLNode]bool{},
 	}
 }
@@ -96,7 +95,11 @@ func (sl *SinglyList) Length() int {
 }
 
 func (sl *SinglyList) Print() {
-	curr := sl.dummyHead
+	if sl.length == 0 {
+		return
+	}
+
+	curr := sl.dummyHead.GetNext()
 	for curr != nil {
 		fmt.Printf("value: %+v", curr.GetValue())
 		curr = curr.GetNext()
@@ -109,7 +112,7 @@ func (sl *SinglyList) Print() {
 }
 
 func TestSinglyLinkedList() {
-	list := NewSingleList()
+	list := NewSinglyList()
 	list.AddNode(1)
 	list.AddNode(2)
 	list.AddNode(3)
