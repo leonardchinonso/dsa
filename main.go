@@ -2,15 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/leonardchinonso/dsa/data_structures/trees"
+
+	"github.com/leonardchinonso/dsa/data_structures/queues"
 )
 
 func main() {
 	//linked_lists.TestSinglyLinkedList()
-	//fmt.Println()
+	//fmt.Printf()
 	//linked_lists.TestDoublyLinkedList()
-	//fmt.Println()
+	//fmt.Printf()
 	//linked_lists.TestCircularLinkedList()
+	//fmt.Println()
+	//trees.TestBinaryTree()
+	//stacks.TestStack()
+	queues.TestSeque()
 	fmt.Println()
-	trees.TestBinaryTree()
 }

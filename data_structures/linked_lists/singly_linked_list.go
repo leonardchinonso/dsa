@@ -11,7 +11,7 @@ type SLLNode struct {
 	next  *SLLNode
 }
 
-func newSLLNode(value interface{}) *SLLNode {
+func NewSLLNode(value interface{}) *SLLNode {
 	return &SLLNode{
 		value: value,
 	}
@@ -46,7 +46,7 @@ type SinglyList struct {
 
 func NewSinglyList() *SinglyList {
 	return &SinglyList{
-		dummyHead: newSLLNode(nil),
+		dummyHead: NewSLLNode(nil),
 		members:   map[*SLLNode]bool{},
 	}
 }
@@ -59,7 +59,7 @@ func (sl *SinglyList) GetHead() *SLLNode {
 }
 
 func (sl *SinglyList) SetHead(value interface{}) *SLLNode {
-	node := newSLLNode(value)
+	node := NewSLLNode(value)
 
 	nextNode := sl.dummyHead.GetNext()
 	if nextNode != nil {
@@ -75,7 +75,7 @@ func (sl *SinglyList) SetHead(value interface{}) *SLLNode {
 }
 
 func (sl *SinglyList) AddNode(value interface{}) *SLLNode {
-	newTail := newSLLNode(value)
+	newTail := NewSLLNode(value)
 
 	if sl.tail == nil {
 		sl.dummyHead.SetNext(newTail)
