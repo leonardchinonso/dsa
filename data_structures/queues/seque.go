@@ -14,21 +14,28 @@ type Seque struct {
 }
 
 func NewSeque(capacity int) *Seque {
-	q := &Seque{
+	return &Seque{
 		dummyHead: ll.NewSLLNode(nil),
 		capacity:  capacity,
 	}
-	return q
+}
+
+func (q *Seque) IsEmpty() bool {
+	return q.size == 0
+}
+
+func (q *Seque) IsFull() bool {
+	return q.size == q.capacity
 }
 
 func (q *Seque) Enqueue(v interface{}) {
-	if q.size == q.capacity {
+	if q.IsFull() {
 		panic("queue is full!")
 	}
 
 	node := ll.NewSLLNode(v)
 
-	if q.size == 0 {
+	if q.IsEmpty() {
 		q.dummyHead.SetNext(node)
 	} else {
 		q.lastEntry.SetNext(node)
@@ -38,9 +45,9 @@ func (q *Seque) Enqueue(v interface{}) {
 	q.size++
 }
 
-func (q *Seque) Dequeue() *ll.SLLNode {
-	if q.size == 0 {
-		panic("cannot dequeue from empty queue")
+func (q *Seque) Dequeue() interface{} {
+	if q.IsEmpty() {
+		panic("cannot dequeue empty queue")
 	}
 
 	node := q.dummyHead.GetNext()
@@ -48,15 +55,18 @@ func (q *Seque) Dequeue() *ll.SLLNode {
 	q.lastEntry = node.GetNext()
 	q.size--
 
-	return node
+	return node.GetValue()
 }
 
 func (q *Seque) Size() int {
 	return q.size
 }
 
-func (q *Seque) Peek() *ll.SLLNode {
-	return q.dummyHead.GetNext()
+func (q *Seque) PeekSeque() interface{} {
+	if q.IsEmpty() {
+		panic("queue is empty")
+	}
+	return q.dummyHead.GetNext().GetValue()
 }
 
 func (q *Seque) Print() {
@@ -69,6 +79,14 @@ func (q *Seque) Print() {
 	fmt.Printf("]\n")
 }
 
+func (q *Deque) PeekSeque() interface{} {
+	if q.IsEmpty() {
+		panic("cannot peek empty queue")
+	}
+
+	return q.tail.GetValue()
+}
+
 func TestSeque() {
 	q := NewSeque(5)
 	q.Enqueue(1)
@@ -77,8 +95,8 @@ func TestSeque() {
 	q.Enqueue(4)
 	q.Enqueue(5)
 	q.Print()
-	fmt.Printf("dequeued: %+v\n", q.Dequeue().GetValue())
+	fmt.Printf("dequeued: %+v\n", q.Dequeue())
 	q.Print()
 	fmt.Printf("size: %+v\n", q.Size())
-	fmt.Printf("peek: %+v\n", q.Peek())
+	fmt.Printf("peek: %+v\n", q.PeekSeque())
 }

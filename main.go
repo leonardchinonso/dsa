@@ -15,6 +15,6 @@ func main() {
 	//fmt.Println()
 	//trees.TestBinaryTree()
 	//stacks.TestStack()
-	queues.TestSeque()
+	queues.TestDeque()
 	fmt.Println()
 }

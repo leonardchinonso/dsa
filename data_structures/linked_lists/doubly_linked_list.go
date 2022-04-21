@@ -12,7 +12,7 @@ type DLLNode struct {
 	next  *DLLNode
 }
 
-func newDLLNode(value interface{}) *DLLNode {
+func NewDLLNode(value interface{}) *DLLNode {
 	return &DLLNode{
 		value: value,
 	}
@@ -55,8 +55,8 @@ type DoublyList struct {
 
 func NewDoublyList() *DoublyList {
 	dl := &DoublyList{
-		dummyHead: newDLLNode(nil),
-		dummyTail: newDLLNode(nil),
+		dummyHead: NewDLLNode(nil),
+		dummyTail: NewDLLNode(nil),
 		length:    0,
 		members:   map[*DLLNode]bool{},
 	}
@@ -80,7 +80,7 @@ func (dl *DoublyList) GetTail() *DLLNode {
 }
 
 func (dl *DoublyList) SetHead(value interface{}) *DLLNode {
-	node := newDLLNode(value)
+	node := NewDLLNode(value)
 	tempNext := dl.dummyHead.GetNext()
 
 	dl.dummyHead.SetNext(node)
@@ -96,7 +96,7 @@ func (dl *DoublyList) SetHead(value interface{}) *DLLNode {
 }
 
 func (dl *DoublyList) AddNode(value interface{}) *DLLNode {
-	node := newDLLNode(value)
+	node := NewDLLNode(value)
 	tempPrev := dl.dummyTail.GetPrev()
 
 	node.SetPrev(tempPrev)
