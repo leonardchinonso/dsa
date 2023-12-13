@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="350302a5-5ba3-4acc-8ef9-a0db9c8beafe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data_structures/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/singly_linked_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/stack.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/add_negabinary.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/air_strip.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/all_ones_are_at_least_k_away.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/any_two_digit.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/balance_a_bst.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/binary_tree_pruning.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/binary_tree_vertical_order_traversal.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/candy.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/coin_change.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/coin_change_ii.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/container_with_most_water.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/count_complete_subarrays.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/count_neg_nums_in_sorted_matrix.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/count_unique_chars_of_all_substrings.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/daily_temperatures.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/decode_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_a_leaderboard.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_add_search_ds.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_browser_history.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_mru_queue.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_parking_system.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/design_underground_system.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/detonate_max_bombs.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/dirs_from_binary_node_to_another.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/divs_with_score_of_binary_arr.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/domino_rotations.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/double_number_linked_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/evaluate_division.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/find_first_last_elem_pos_in_sorted_array.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/find_unique_binary_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/game_of_nim.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/gas_station.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/generate_parentheses.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/group_the_people.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/html_parser.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/insert_remove_getrandom.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/invalid_transactions.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/jotter.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/kill_process.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/longest_alphabetical_substring.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/longest_common_subsequence.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/longest_happy_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/longest_path_diff_adjacent_chars.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/lowest_common_ancestor_binary_tree.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/max_stack.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/max_sum_pair_equal_digits_sum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/maximum_swap.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/maximum_tastiness.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_addition_make_int_beautiful.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_ascii_del_two_strings.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_consecutive_cards_pick.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_deletions_char_freq_unique.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_ops_to_make_arr_eq.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_stack.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/min_time_to_collect_garbage.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/minimize_max_diff_of_pairs.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/next_greater_elem_iii.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/num_of_emp_meets_target.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/parallel_courses.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/perform_string_shifts.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/plates_between_candles.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/range_sum_2d_mutable.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/reorder_routes_to_lead_to_zero.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/reorganize_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/search_in_rotated_sorted_array.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/shifting_letters.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/simplify_path.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/single_number.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/sort_colors.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/sort_ints_by_power_value.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/sort_linked_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/sort_vowels_in_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/split_words_by_sep.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/stats_from_sample.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/strange_printer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/sum_abs_diff_in_sorted_array.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/task_scheduler.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/two_city_scheduling.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/unique_length_3_pal_subsequence.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/unique_morse_code_words.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/unique_paths_ii.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/unreachable_pairs_in_graph.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/where_will_the_ball_fall.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/word_search_ii.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/slice.rs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="szaf5htq" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2TO7vf9wyqKb2WmgNFYiDQTSZ8M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Test decode_string::test.executor": "Run",
+    "Cargo.Test find_unique_binary_string::test.executor": "Run",
+    "Cargo.Test solutions::add_negabinary::test::add_negabinary_works.executor": "Run",
+    "Cargo.Test solutions::air_strip::test::all_paths_between_nodes_works.executor": "Run",
+    "Cargo.Test solutions::all_ones_are_at_least_k_away::test::k_length_apart_works.executor": "Run",
+    "Cargo.Test solutions::binary_tree_vertical_order_traversal::test::vertical_order_compiles.executor": "Run",
+    "Cargo.Test solutions::count_neg_nums_in_sorted_matrix::test::count_negatives_works.executor": "Run",
+    "Cargo.Test solutions::decode_string::test::decode_string_works.executor": "Run",
+    "Cargo.Test solutions::design_add_search_ds::test::test_word_dictionary.executor": "Run",
+    "Cargo.Test solutions::design_browser_history::test::it_compiles.executor": "Run",
+    "Cargo.Test solutions::detonate_max_bombs::test::maximum_detonation_works.executor": "Run",
+    "Cargo.Test solutions::evaluate_division::test::calc_equation_works.executor": "Run",
+    "Cargo.Test solutions::find_unique_binary_string::test::find_different_binary_string_works.executor": "Run",
+    "Cargo.Test solutions::game_of_nim::test::nim_game_works.executor": "Run",
+    "Cargo.Test solutions::generate_parentheses::test::generate_parenthesis_works.executor": "Run",
+    "Cargo.Test solutions::html_parser::test::entity_parser_works.executor": "Run",
+    "Cargo.Test solutions::invalid_transactions::test::invalid_transactions_works.executor": "Run",
+    "Cargo.Test solutions::kill_process::test::kill_process_works.executor": "Run",
+    "Cargo.Test solutions::longest_alphabetical_substring::test::longest_continuous_substring_works.executor": "Run",
+    "Cargo.Test solutions::longest_common_subsequence::test::longest_common_subsequence_works.executor": "Run",
+    "Cargo.Test solutions::max_stack::test::max_stack_works.executor": "Run",
+    "Cargo.Test solutions::max_sum_pair_equal_digits_sum::test::maximum_sum_works.executor": "Run",
+    "Cargo.Test solutions::maximum_swap::test::array_from_i32_works.executor": "Run",
+    "Cargo.Test solutions::maximum_swap::test::build_suffix_maxes_works.executor": "Run",
+    "Cargo.Test solutions::maximum_swap::test::i32_from_array_works.executor": "Run",
+    "Cargo.Test solutions::maximum_swap::test::maximum_swap_works.executor": "Run",
+    "Cargo.Test solutions::maximum_swap::test::reverse_works.executor": "Run",
+    "Cargo.Test solutions::min_time_to_collect_garbage::test::garbage_collection_works.executor": "Run",
+    "Cargo.Test solutions::parallel_courses::test::minimum_semesters_works.executor": "Run",
+    "Cargo.Test solutions::perform_string_shifts::test::string_shift_works.executor": "Run",
+    "Cargo.Test solutions::search_in_rotated_sorted_array::test::search_works.executor": "Run",
+    "Cargo.Test solutions::shifting_letters::test::reverse_accumulator_test.executor": "Run",
+    "Cargo.Test solutions::shifting_letters::test::shift_works.executor": "Run",
+    "Cargo.Test solutions::shifting_letters::test::shifting_letters_works.executor": "Run",
+    "Cargo.Test solutions::sort_ints_by_power_value::test::get_kth_works.executor": "Run",
+    "Cargo.Test solutions::sort_vowels_in_string::test::sort_vowels_works.executor": "Run",
+    "Cargo.Test solutions::sum_abs_diff_in_sorted_array::test::get_sum_absolute_differences_works.executor": "Run",
+    "Cargo.Test solutions::two_city_scheduling::test::two_city_sched_cost_works.executor": "Run",
+    "Cargo.Test solutions::unique_length_3_pal_subsequence::test::count_palindromic_subsequence_works.executor": "Run",
+    "Cargo.Test solutions::unreachable_pairs_in_graph::test::count_pairs_works.executor": "Run",
+    "Cargo.Test unique_length_3_pal_subsequence::test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/leonard/projects/rust/dsa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "prettierjs.PrettierConfiguration.Package": "/opt/homebrew/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Test solutions::generate_parentheses::test::generate_parenthesis_works">
+    <configuration name="Test solutions::binary_tree_vertical_order_traversal::test::vertical_order_compiles" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package dsa --bin dsa solutions::binary_tree_vertical_order_traversal::test::vertical_order_compiles -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test solutions::evaluate_division::test::calc_equation_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package dsa --bin dsa solutions::evaluate_division::test::calc_equation_works -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test solutions::generate_parentheses::test::generate_parenthesis_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package dsa --bin dsa solutions::generate_parentheses::test::generate_parenthesis_works -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test solutions::kill_process::test::kill_process_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package dsa --bin dsa solutions::kill_process::test::kill_process_works -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test solutions::sum_abs_diff_in_sorted_array::test::get_sum_absolute_differences_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package dsa --bin dsa solutions::sum_abs_diff_in_sorted_array::test::get_sum_absolute_differences_works -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test solutions::generate_parentheses::test::generate_parenthesis_works" />
+        <item itemvalue="Cargo.Test solutions::evaluate_division::test::calc_equation_works" />
+        <item itemvalue="Cargo.Test solutions::sum_abs_diff_in_sorted_array::test::get_sum_absolute_differences_works" />
+        <item itemvalue="Cargo.Test solutions::kill_process::test::kill_process_works" />
+        <item itemvalue="Cargo.Test solutions::binary_tree_vertical_order_traversal::test::vertical_order_compiles" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="350302a5-5ba3-4acc-8ef9-a0db9c8beafe" name="Changes" comment="" />
+      <created>1690902505054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690902505054</updated>
+      <workItem from="1690902506215" duration="13591000" />
+      <workItem from="1690971708562" duration="85378000" />
+      <workItem from="1691413183197" duration="2920000" />
+      <workItem from="1691417579813" duration="58000" />
+      <workItem from="1691417642599" duration="2529000" />
+      <workItem from="1691510709576" duration="20734000" />
+      <workItem from="1691667056699" duration="1612000" />
+      <workItem from="1691685350452" duration="15250000" />
+      <workItem from="1692207299111" duration="44105000" />
+      <workItem from="1693326709878" duration="3001000" />
+      <workItem from="1693438015976" duration="661000" />
+      <workItem from="1693472453609" duration="163000" />
+      <workItem from="1693591215117" duration="12827000" />
+      <workItem from="1693604195613" duration="8889000" />
+      <workItem from="1694340703351" duration="12590000" />
+      <workItem from="1694441225345" duration="194000" />
+      <workItem from="1694441430715" duration="29048000" />
+      <workItem from="1694699307968" duration="598000" />
+      <workItem from="1694813244026" duration="211000" />
+      <workItem from="1694814174293" duration="19996000" />
+      <workItem from="1695512471621" duration="7000" />
+      <workItem from="1695515853043" duration="2000" />
+      <workItem from="1695763447493" duration="7362000" />
+      <workItem from="1695938876868" duration="29000" />
+      <workItem from="1696342167175" duration="16474000" />
+      <workItem from="1696842867931" duration="31744000" />
+      <workItem from="1697222410203" duration="9000" />
+      <workItem from="1697222620640" duration="504000" />
+      <workItem from="1697223492242" duration="74689000" />
+      <workItem from="1697796705356" duration="83877000" />
+      <workItem from="1699547504076" duration="56220000" />
+      <workItem from="1700538898023" duration="12078000" />
+      <workItem from="1700776733439" duration="597000" />
+      <workItem from="1700856058984" duration="10706000" />
+      <workItem from="1700939185514" duration="8376000" />
+      <workItem from="1701079347521" duration="7243000" />
+      <workItem from="1701200254612" duration="2810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
